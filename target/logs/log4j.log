@@ -1,0 +1,1133 @@
+[INFO ] 2023-05-29 15:32:32.134 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                   Powered by SHAFT Engine v7.2.20230505_ALPHA                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-29 15:32:33.030 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-05-29 15:32:33.041 [main] ReportManager - File Action "DeleteFolder" successfully performed. With the following test data "Target Folder: "execution-summary"".
+[INFO ] 2023-05-29 15:32:33.042 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-05-29 15:32:33.153 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-05-29 15:32:33.504 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "simpleJSON.json"".
+[INFO ] 2023-05-29 15:32:33.504 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/simpleJSON.json"".
+[INFO ] 2023-05-29 15:32:33.505 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/simpleJSON.json"".
+[ERROR] 2023-05-29 15:32:33.529 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2023-05-29 15:32:33.530 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-05-29 15:32:33.534 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2023-05-29 15:32:33.535 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2023-05-29 15:32:33.536 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2023-05-29 15:32:33.536 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2023-05-29 15:32:33.588 [main] Utils - [TestNG] Running:
+  C:\Users\mohamed.abdelhay\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[INFO ] 2023-05-29 15:32:33.606 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-29 15:32:33.667 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-05-29 15:32:33.681 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-05-29 15:32:33.766 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of set up driver configuration method                                            
+                                                      'org.Android.RegisterTC.setUpDriver'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-29 15:32:33.775 [main] ReportManager - Setting "autoMaximizeBrowserWindow" property with "false".
+[INFO ] 2023-05-29 15:32:33.781 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-05-29 15:32:33.781 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-05-29 15:32:33.784 [main] ReportManager - Attempting to run remotely on: "ANDROID | http://0.0.0.0:4723/".
+[INFO ] 2023-05-29 15:32:33.793 [main] ReportManager - Attempting to instantiate remote driver instance for up to 10min.
+[INFO ] 2023-05-29 15:32:33.794 [main] ReportManager - Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK}
+[DEBUG] 2023-05-29 15:33:19.126 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:33:19.126 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:33:40.703 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:33:40.704 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20382ms. 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:34:02.180 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:34:02.181 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20300ms. 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:34:23.717 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:34:23.717 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20357ms. 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:34:44.896 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:34:44.896 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20009ms. 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:34:58.227 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:34:58.227 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mohamed.abdelhay\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s R5CRC0K3RLK forward tcp\:8200 tcp\:6790' exited with code 1'; Command output: adb.exe: error: device 'R5CRC0K3RLK' not found
+ 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:35:00.086 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:35:00.086 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mohamed.abdelhay\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s R5CRC0K3RLK shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device 'R5CRC0K3RLK' not found
+ 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:35:02.231 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:35:02.231 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mohamed.abdelhay\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s R5CRC0K3RLK shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:35:03.896 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:35:03.896 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mohamed.abdelhay\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s R5CRC0K3RLK shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:35:05.561 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:656)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-05-29 15:35:05.562 [main] ReportManager - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mohamed.abdelhay\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s R5CRC0K3RLK shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: 'FIS-523', ip: '10.6.14.143'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:allowTestPackages=true, appium:app=C:/Users/mohamed.abdelhay/IdeaProjects/WithShift/src/main/resources/mWallet.apk, appium:appWaitActivity=*, appium:autoGrantPermissions=true, appium:automationName=UiAutomator2, appium:clearDeviceLogsOnStart=true, appium:disableWindowAnimation=true, appium:enableWebviewDetailsCollection=true, appium:enforceAppInstall=false, appium:forceAppLaunch=true, appium:fullReset=true, appium:ignoreHiddenApiPolicyError=true, appium:isHeadless=true, appium:noSign=true, appium:printPageSourceOnFindFailure=true, appium:showChromedriverLog=true, appium:udid=R5CRC0K3RLK, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}}]
+Capabilities {appium:allowTestPackages: true, appium:app: C:/Users/mohamed.abdelhay/I..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:clearDeviceLogsOnStart: true, appium:disableWindowAnimation: true, appium:enableWebviewDetailsCollection: true, appium:enforceAppInstall: false, appium:forceAppLaunch: true, appium:fullReset: true, appium:ignoreHiddenApiPolicyError: true, appium:isHeadless: true, appium:noSign: true, appium:printPageSourceOnFindFailure: true, appium:showChromedriverLog: true, appium:udid: R5CRC0K3RLK, platformName: ANDROID}
+ org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+ io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+ io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+ io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+ io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+ io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+ com.shaft.driver.internal.DriverFactoryHelper.connectToRemoteServer(DriverFactoryHelper.java:686)
+ com.shaft.driver.internal.DriverFactoryHelper.attemptRemoteServerConnection(DriverFactoryHelper.java:660)
+ com.shaft.driver.internal.DriverFactoryHelper.setRemoteDriverInstance(DriverFactoryHelper.java:588)
+ com.shaft.driver.internal.DriverFactoryHelper.configureRemoteDriverInstance(DriverFactoryHelper.java:716)
+ com.shaft.driver.internal.DriverFactoryHelper.createNewRemoteDriverInstance(DriverFactoryHelper.java:548)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:877)
+ com.shaft.driver.internal.DriverFactoryHelper.initializeDriver(DriverFactoryHelper.java:838)
+ com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:32)
+ com.shaft.driver.SHAFT$GUI$WebDriver.<init>(SHAFT.java:52)
+ org.base.TestBase.setUpDriver(TestBase.java:19)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+ org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO ] 2023-05-29 15:35:25.228 [main] ReportManager - Successfully instantiated remote driver instance.
+[INFO ] 2023-05-29 15:35:25.229 [main] ReportManager - Successfully Opened "Native androidapp".
+[INFO ] 2023-05-29 15:35:25.269 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                 Test Method: 'org.Android.RegisterTC.register'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-29 15:35:25.320 [main] ReportManager - Waiting for element to be present; elementLocator "By.id: text_view_create_account", isExpectedToBeVisible"true"...
+[INFO ] 2023-05-29 15:35:29.365 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.id: text_view_create_account)" against "By.id: text_view_create_account".
+[INFO ] 2023-05-29 15:35:30.018 [main] ReportManager - Tap "Create account".
+[INFO ] 2023-05-29 15:35:31.827 [main] ReportManager - Type append "01057560938" into "By.xpath: //MwalletCustomTextInputLayout//*[@resource-id,'editText_mobile_number']".
+[INFO ] 2023-05-29 15:35:32.974 [main] ReportManager - Tap "By.id: agree_checkBox".
+[INFO ] 2023-05-29 15:35:34.756 [main] ReportManager - Tap "Continue".
+[INFO ] 2023-05-29 15:35:34.757 [main] ReportManager - Waiting for element to be present; elementLocator "By.id: et_verification_code", isExpectedToBeVisible"true"...
+[INFO ] 2023-05-29 15:35:36.903 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.id: et_verification_code)" against "By.id: et_verification_code".
+[INFO ] 2023-05-29 15:35:37.710 [main] ReportManager - Type append "12345" into "By.id: et_verification_code".
+[INFO ] 2023-05-29 15:35:39.429 [main] ReportManager - Tap "By.id: agree_checkBox".
+[INFO ] 2023-05-29 15:35:40.922 [main] ReportManager - Tap "Verify".
+[INFO ] 2023-05-29 15:35:40.923 [main] ReportManager - Waiting for element to be present; elementLocator "By.id: editText_password", isExpectedToBeVisible"true"...
+[INFO ] 2023-05-29 15:35:42.393 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.id: editText_password)" against "By.id: editText_password".
+[INFO ] 2023-05-29 15:35:42.796 [main] ReportManager - Type append "P@ssw0rd" into "By.id: editText_password".
+[INFO ] 2023-05-29 15:35:43.786 [main] ReportManager - Type append "P@ssw0rd" into "By.id: editText_renter_password".
+[INFO ] 2023-05-29 15:35:45.168 [main] ReportManager - Tap "Continue".
+[INFO ] 2023-05-29 15:35:45.180 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: register'
+[INFO ] 2023-05-29 15:35:45.271 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of suite teardown configuration method                                            
+                                        'com.shaft.listeners.internal.ConfigurationHelper.suiteTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-29 15:35:45.272 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-05-29 15:35:45.272 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-05-29 15:35:45.273 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
+[INFO ] 2023-05-29 15:35:45.274 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "D:\Projects\Fawry\target\logs\log4j.log"".
+[INFO ] 2023-05-29 15:35:45.277 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log"".
+[INFO ] 2023-05-29 15:35:45.288 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20230529-153545'
+[DEBUG] 2023-05-29 15:35:45.308 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.309 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.310 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.310 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.310 [main] cache - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2023-05-29 15:35:45.380 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.380 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.381 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.381 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.381 [main] cache - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2023-05-29 15:35:45.457 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.457 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.458 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.458 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.458 [main] cache - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2023-05-29 15:35:45.463 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.463 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.463 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.463 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.463 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2023-05-29 15:35:45.465 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.465 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.465 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.465 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.465 [main] cache - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2023-05-29 15:35:45.466 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.467 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.467 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.467 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.467 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2023-05-29 15:35:45.469 [main] cache - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-05-29 15:35:45.469 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.470 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.470 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.470 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.470 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2023-05-29 15:35:45.475 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.476 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.476 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.476 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.476 [main] cache - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2023-05-29 15:35:45.478 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.478 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.478 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.479 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.479 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2023-05-29 15:35:45.479 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.479 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.480 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.480 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.480 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2023-05-29 15:35:45.485 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.485 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.485 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.485 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.485 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2023-05-29 15:35:45.492 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.492 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.493 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.493 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.493 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2023-05-29 15:35:45.517 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.518 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.518 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.518 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.518 [main] cache - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2023-05-29 15:35:45.524 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.525 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.525 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.525 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.525 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+[DEBUG] 2023-05-29 15:35:45.529 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.529 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.529 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.529 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.529 [main] cache - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2023-05-29 15:35:45.530 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.530 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.530 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.531 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.531 [main] cache - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2023-05-29 15:35:45.531 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.531 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.531 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.531 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.531 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2023-05-29 15:35:45.532 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-29 15:35:45.532 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.532 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2023-05-29 15:35:45.532 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2023-05-29 15:35:45.532 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohamed.abdelhay/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO ] 2023-05-29 15:35:45.543 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[INFO ] 2023-05-29 15:35:45.551 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2023-05-29 15:35:45.552 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after class configuration method                                             
+                                                       'org.Android.RegisterTC.afterClass'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-29 15:35:45.563 [main] ReportManager - ===============================================
+[INFO ] 2023-05-29 15:35:45.563 [main] ReportManager - Suite
+[INFO ] 2023-05-29 15:35:45.563 [main] ReportManager - Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+[INFO ] 2023-05-29 15:35:45.563 [main] ReportManager - ===============================================
+[INFO ] 2023-05-29 15:35:45.569 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "execution-summary/ExecutionSummaryReport_29-05-2023_15-35-45-0565-PM.html"".
+[INFO ] 2023-05-29 15:35:45.578 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "D:\Projects\Fawry\execution-summary\ExecutionSummaryReport_29-05-2023_15-35-45-0565-PM.html"".
+[INFO ] 2023-05-29 15:35:45.587 [main] ReportManager - Executing: ".\execution-summary/ExecutionSummaryReport_*.html" locally.
+[INFO ] 2023-05-29 15:35:45.834 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: ".\execution-summary/ExecutionSummaryReport_*.html" | Exit Status: "0"".
+[INFO ] 2023-05-29 15:35:45.834 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Test Execution Summary Results                                                         
+                                              Total Cases: 1 --> Passed: 1 | Failed: 0 | Skipped: 0                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-05-29 15:35:45.835 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                          This test run was powered by SHAFT Engine v7.2.20230505_ALPHA                                          
+                                  SHAFT Engine is *and will always be* 100% FREE for commercial and private use                                  
+                                                       in compliance with the MIT license                                                       
+                                           https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+

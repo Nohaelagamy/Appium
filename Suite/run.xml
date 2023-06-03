@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Appium Test Suite">
+
+    <parameter name="platformName" value="Android" />
+    <test name="Login Test Android">
+        <classes>
+
+            <class name="org.Android.LoginTC">
+
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

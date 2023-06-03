@@ -1,0 +1,22 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                 Test Method: 'org.Android.RegisterTC.register'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Waiting for element to be present; elementLocator "By.id: text_view_create_account", isExpectedToBeVisible"true"... @29-05-2023 15:35:25.0320 PM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.id: text_view_create_account)" against "By.id: text_view_create_account". @29-05-2023 15:35:29.0361 PM
+[ReportManager] Tap "Create account". @29-05-2023 15:35:30.0018 PM
+[ReportManager] Type append "01057560938" into "By.xpath: //MwalletCustomTextInputLayout//*[@resource-id,'editText_mobile_number']". @29-05-2023 15:35:31.0826 PM
+[ReportManager] Tap "By.id: agree_checkBox". @29-05-2023 15:35:32.0974 PM
+[ReportManager] Tap "Continue". @29-05-2023 15:35:34.0756 PM
+[ReportManager] Waiting for element to be present; elementLocator "By.id: et_verification_code", isExpectedToBeVisible"true"... @29-05-2023 15:35:34.0757 PM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.id: et_verification_code)" against "By.id: et_verification_code". @29-05-2023 15:35:36.0903 PM
+[ReportManager] Type append "12345" into "By.id: et_verification_code". @29-05-2023 15:35:37.0709 PM
+[ReportManager] Tap "By.id: agree_checkBox". @29-05-2023 15:35:39.0429 PM
+[ReportManager] Tap "Verify". @29-05-2023 15:35:40.0922 PM
+[ReportManager] Waiting for element to be present; elementLocator "By.id: editText_password", isExpectedToBeVisible"true"... @29-05-2023 15:35:40.0923 PM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.id: editText_password)" against "By.id: editText_password". @29-05-2023 15:35:42.0393 PM
+[ReportManager] Type append "P@ssw0rd" into "By.id: editText_password". @29-05-2023 15:35:42.0796 PM
+[ReportManager] Type append "P@ssw0rd" into "By.id: editText_renter_password". @29-05-2023 15:35:43.0785 PM
+[ReportManager] Tap "Continue". @29-05-2023 15:35:45.0168 PM
